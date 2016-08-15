@@ -129,7 +129,7 @@ function updateBalls(){
 			}
 
 		}
-		while(balls.length>Math.min(cnt,1500)){
+		while(balls.length>Math.min(cnt,2000)){
 			balls.pop();
 			console.log(balls.length);
 
