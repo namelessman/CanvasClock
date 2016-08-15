@@ -1,8 +1,8 @@
-var WIDTH=1024;
-var HEIGHT=500;
-var RADIUS=8;
+var WIDTH=document.documentElement.clientWidth-20;
+var HEIGHT=document.documentElement.clientHeight-20;
+var RADIUS=Math.round(WIDTH*4/5/108)-1;
 var TOP=60;
-var LEFT=30;
+var LEFT=Math.round(WIDTH/10);
 var balls=[];
 const colors=["#33b5e5","#09c","a6c","#93c","#9c0","#690","#fb3","#f80","#f44","#c00"];
 
